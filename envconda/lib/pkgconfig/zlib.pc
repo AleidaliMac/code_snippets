@@ -1,0 +1,13 @@
+prefix=/Users/aleidali/code_snippets/envconda
+exec_prefix=/Users/aleidali/code_snippets/envconda
+libdir=/Users/aleidali/code_snippets/envconda/lib
+sharedlibdir=/Users/aleidali/code_snippets/envconda/lib
+includedir=/Users/aleidali/code_snippets/envconda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
